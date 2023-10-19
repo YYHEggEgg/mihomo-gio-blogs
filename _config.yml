@@ -71,7 +71,7 @@ gitalk:
   clientSecret: 223f68dfa2f2f941c4adc9f8f6331f521e721447
   repo: mihomo-gio-blogs
   owner: YYHEggEgg
-  proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
+  proxy: https://proxy-gitalk-api.netlify.app/github_access_token
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
