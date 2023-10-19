@@ -69,7 +69,7 @@ disqus: # fromendworld
 gitalk:
   clientID: d42f3fdc30cd997e3134
   clientSecret: 223f68dfa2f2f941c4adc9f8f6331f521e721447
-  repo: yyheggegg.github.io
+  repo: mihomo-gio-blogs.github.io
   owner: YYHEggEgg
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
@@ -78,7 +78,7 @@ gitalk:
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 # TODO
-url: https://yyheggegg.github.io
+url: https://mihomo-gio-blogs.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
