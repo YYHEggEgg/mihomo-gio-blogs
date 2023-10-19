@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: "miHomo GIO Blogs"
+name: "miHomo"
 # Short bio or description (displayed in the header)
 # TODO
-description: ""
+description: "GIO Blogs"
 
 #
 # Flags below are optional
@@ -14,7 +14,7 @@ description: ""
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 # TODO
-avatar: https://github.com/lemonchann/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png
+avatar: https://avatars.githubusercontent.com/u/53960525
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 # TODO
 favicon: https://github.com/lemonchann/lemonchann.github.io/raw/master/images/favicon.ico
@@ -67,10 +67,10 @@ disqus: # fromendworld
 # Gitalk
 # TODO
 gitalk:
-  clientID: bd65d5c0df878155b7fa
-  clientSecret: d0220762c05c2d6b6f6152a0f0e4b6b090de9729
-  repo: lemonchann.github.io
-  owner: lemonchann
+  clientID: d42f3fdc30cd997e3134
+  clientSecret: 223f68dfa2f2f941c4adc9f8f6331f521e721447
+  repo: yyheggegg.github.io
+  owner: YYHEggEgg
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
@@ -78,7 +78,7 @@ gitalk:
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 # TODO
-url: https://lemonchann.github.io
+url: https://yyheggegg.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
