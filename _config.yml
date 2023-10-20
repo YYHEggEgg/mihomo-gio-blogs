@@ -73,7 +73,7 @@ gitalk:
   owner: YYHEggEgg
   proxy: https://proxy-gitalk-api.netlify.app/github_access_token
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# Enter your Google Analytics measurement ID (e.g. G-ABCDEFGHIJ) to activate tracking
 google_analytics: G-T84BKSV7J1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
