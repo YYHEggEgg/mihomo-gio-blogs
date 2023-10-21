@@ -127,3 +127,5 @@ exclude:
   - README.md
   - CNAME
 
+kramdown:
+  math_engine: null

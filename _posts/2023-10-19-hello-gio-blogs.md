@@ -2,7 +2,7 @@
 layout: post
 title: "欢迎来到 GIO Blogs"
 date: 2023-10-21
-tags: [welcome]
+tags: [Welcome]
 comments: true
 author: YYHEggEgg
 ---
