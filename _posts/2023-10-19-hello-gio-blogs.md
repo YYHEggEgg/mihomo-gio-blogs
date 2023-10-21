@@ -1,4 +1,11 @@
-## 欢迎来到 GIO Blogs
+---
+layout: post
+title: "欢迎来到 GIO Blogs"
+date: 2023-10-21
+tags: [welcome]
+comments: true
+author: YYHEggEgg
+---
 
 [####] 官方博客设立的目的是为了给用户提供 [####] 与 GIO 软件的最佳实践。
 

@@ -33,7 +33,8 @@ $base-lighten-color: $oc-gray-6;
 $base-lightener-color: $oc-gray-4;
 
 $background-color: $oc-gray-8;
-$background-lighten-color: #f8f9fa6b;
+$background-lighten-color: $oc-gray-7;
+$background-even-lighten-color: #4b4949;
 
 $text-color: $oc-gray-2;
 $link-color: $oc-blue-3;
@@ -53,7 +54,7 @@ $footnote-link-border-color: $oc-gray-6;
 $footnote-link-background-over-color: $oc-gray-6;
 
 // $selection-color: $oc-black;
-$selection-background-color: $oc-gray-6;
+$selection-background-color: #8080807e;
 
 $tag-index-label-background-color: $oc-gray-2;
 $tag-index-count-background-color: #868e961a;

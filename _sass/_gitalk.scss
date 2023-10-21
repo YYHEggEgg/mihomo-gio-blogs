@@ -4,9 +4,9 @@
 }
   
 .markdown-body {
-    color: $base-color;
+    color: $text-color;
     font-family: $base-font;
-    font-size: $small-font-size;
+    font-size: $base-font-size;
     line-height: 1.5;
     word-wrap: break-word;
   
@@ -29,11 +29,11 @@
     }  
     .pl-e, 
     .pl-en {
-      color: #6f42c1; 
+      color: #816bac; 
     }
     .pl-smi, 
     .pl-s .pl-s1 {
-      color: #24292e; 
+      color: $text-color; 
     }
     .pl-ent {
       color: #22863a;
@@ -55,14 +55,14 @@
     color: #e36209;
     }
     .pl-bu {
-      color: #b31d28;
+      color: #c96269;
     }
     .pl-ii {
-      color: #fafbfc;
+      color: $background-even-lighten-color;
       background-color: #b31d28;
     }
     .pl-c2 {
-      color: #fafbfc;
+      color: $background-even-lighten-color;
       background-color: #d73a49;
     }
     .pl-c2::before {
@@ -83,26 +83,26 @@
     }
     .pl-mi {
       font-style: italic;
-      color: #24292e;
+      color: #868b91;
     }
     .pl-mb {
       font-weight: bold;
-      color: #24292e;
+      color: #8f9296;
     }
     .pl-md {
-      color: #b31d28;
-      background-color: #ffeef0;
+      color: #ad6b70;
+      background-color: $background-lighten-color;
     }
     .pl-mi1 {
       color: #22863a;
-      background-color: #f0fff4;
+      background-color: $background-lighten-color;
     }
     .pl-mc {
       color: #e36209;
-      background-color: #ffebda;
+      background-color: $background-lighten-color;
     }
     .pl-mi2 {
-      color: #f6f8fa;
+      color: $background-lighten-color;
       background-color: $link-color;
     }
     .pl-mdr {
@@ -117,7 +117,7 @@
     }
     .pl-corl {
       text-decoration: underline;
-      color: #032f62;
+      color: #3a5a7e;
     }
     .pl-0 {
       padding-left: 0 !important;
@@ -151,12 +151,12 @@
     line-height: 10px;
     color: #444d56;
     vertical-align: middle;
-    background-color: #fafbfc;
-    border: solid 1px #c6cbd1;
-    border-bottom-color: #959da5;
+    background-color: $background-even-lighten-color;
+    border: solid 1px $background-even-lighten-color;
+    border-bottom-color: $background-even-lighten-color;
     border-radius: 3px;
-    -webkit-box-shadow: inset 0 -1px 0 #959da5;
-            box-shadow: inset 0 -1px 0 #959da5;
+    -webkit-box-shadow: inset 0 -1px 0 $background-even-lighten-color;
+            box-shadow: inset 0 -1px 0 $background-even-lighten-color;
   }
   
   
@@ -206,7 +206,7 @@
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
-    background-color: #f6f8fa;
+    background-color: $background-even-lighten-color;
     border-radius: 3px;
   }
   
@@ -239,12 +239,12 @@
     line-height: 10px;
     color: #444d56;
     vertical-align: middle;
-    background-color: #fafbfc;
-    border: solid 1px #d1d5da;
-    border-bottom-color: #c6cbd1;
+    background-color: $background-lighten-color;
+    border: solid 1px $background-lighten-color;
+    border-bottom-color: $background-lighten-color;
     border-radius: 3px;
-    -webkit-box-shadow: inset 0 -1px 0 #c6cbd1;
-            box-shadow: inset 0 -1px 0 #c6cbd1;
+    -webkit-box-shadow: inset 0 -1px 0 $background-even-lighten-color;
+            box-shadow: inset 0 -1px 0 $background-even-lighten-color;
   }
   
   .markdown-body :checked+.radio-label {
@@ -421,7 +421,7 @@
     border: 1px solid $link-color;
     border-radius: 5px;
     background-color: $link-color;
-    color:$white;
+    color: $background-lighten-color;
     outline: none;
     font-size: 0.75em;
   }
@@ -444,7 +444,7 @@
     margin-right: 0;
   }
   .gt-container .gt-btn-preview {
-    background-color: $oc-white;
+    background-color: $background-lighten-color;
     color: $link-color;
   }
   .gt-container .gt-btn-preview:hover {
@@ -596,6 +596,7 @@
     outline: none;
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
+    color: $text-color
   }
   .gt-container .gt-header-textarea:hover {
     background-color: $background-lighten-color;
