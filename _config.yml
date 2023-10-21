@@ -13,11 +13,12 @@ description: "miHomo GIO Blogs"
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-# TODO
-avatar: images/blog.png
+# avatar:
+avatar_relative: images/blog.png
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 # TODO
-favicon: images/favicon.ico
+# favicon:
+favicon_relative: images/favicon.ico
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
@@ -27,8 +28,8 @@ navigation:
     url: /
   - name: 关于
     url: /about
-  - name: 归档
-    url: /archive
+  # - name: 归档
+  #   url: /archive
   - name: 标签
     url: /tags
 

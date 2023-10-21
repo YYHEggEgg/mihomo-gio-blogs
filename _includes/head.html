@@ -10,7 +10,11 @@
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  {% if site.favicon_relative %}
+  <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/{{ site.favicon_relative }}">
+  {% else %}
   <link rel="shortcut icon" href="{{ site.favicon }}">
+  {% endif %}
  <!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
   <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
   <script>

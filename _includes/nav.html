@@ -2,7 +2,9 @@
   <header class="sidebar clearfix">
     <div class="site-info">
       {% if site.avatar %}
-        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+      <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+      {% else if site.avatar_relative %}
+      <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.url }}{{ site.baseurl }}/{{ site.avatar_relative }}" /></a>
       {% endif %} 
       <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
       <p class="site-description">{{ site.description }}</p>
