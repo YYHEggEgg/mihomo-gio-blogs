@@ -79,7 +79,8 @@ google_analytics: G-T84BKSV7J1
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 # TODO
-url: https://yyheggegg.github.io
+# url: https://yyheggegg.github.io
+url: 127.0.0.1:4000
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

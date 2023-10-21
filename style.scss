@@ -23,6 +23,7 @@ body {
   font-family: $base-font;
   color: $base-color;
   line-height: 1.7em;
+  background-color: $base-color;
 }
 
 .container {
@@ -36,6 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 2em;
   margin: 1em 0 16px;
   padding: 0;
+  color: $text-color;
 
   @include mobile {
     line-height: 1.6em;
@@ -118,6 +120,7 @@ hr {
 // https://gist.github.com/yeun/d824fc7b04b756508f4b0143535cec30
 
 ol, ul {
+  color: $text-color;
   > li {
     &:before {
       position: absolute;
@@ -378,7 +381,7 @@ img {
 
 .site-name {
   margin: 0 auto;
-  color: $base-color;
+  color: $text-color;
   cursor: pointer;
   font-family: $base-font;
   font-weight: 700;
@@ -457,7 +460,7 @@ nav {
       > a {
         margin: 3px 3px 3px 0;
         padding: .5px 4px;
-        color: $base-color;
+        color: $text-color;
         background-color: $tag-index-label-background-color;
         border-radius: 3px;
 
@@ -600,7 +603,7 @@ nav {
 // Archive
 .archive {
   a {
-    color: $base-color;
+    color: $text-color;
   }
   time {
     color: $base-lighten-color;
@@ -625,7 +628,7 @@ nav {
     > a {
       display: inline-block;
       margin: 1px;
-      color: $base-color;
+      color: $text-color;
       background-color: $tag-index-label-background-color;
       border-radius: 3px;
 
@@ -649,7 +652,7 @@ nav {
 
 .tags > .tag {
   a {
-    color: $base-color;
+    color: $text-color;
   }
   time {
     color: $base-lighten-color;
