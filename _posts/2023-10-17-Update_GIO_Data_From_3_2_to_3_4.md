@@ -2,7 +2,7 @@
 layout: post
 title: "如何更新 GIO 服务器的 DATA 版本"
 date: 2023-10-24
-tags: [Server, Server Data, WinMerge]
+tags: [Server, Server-Data, WinMerge]
 comments: true
 author: YYHEggEgg
 ---
