@@ -9,8 +9,6 @@ author: YYHEggEgg
 
 [csharp-Protoshift v1.0.1](https://github.com/YYHEggEgg/csharp-Protoshift/releases/tag/v1.0.1) has been released!
 
-# csharp-Protoshift
-
 csharp-Protoshift is an advanced, manageable compatibility layer for a certain anime game.
 
 ## Current Features
