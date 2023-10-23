@@ -6,7 +6,7 @@
 name: "GIO Blogs"
 # Short bio or description (displayed in the header)
 # TODO
-description: "miHomo GIO Blogs"
+description: "csharp-Protoshift Official Blogs"
 
 #
 # Flags below are optional
@@ -28,8 +28,8 @@ navigation:
     url: /
   - name: 关于
     url: /about
-  # - name: 归档
-  #   url: /archive
+  - name: 归档
+    url: /archive
   - name: 标签
     url: /tags
 
