@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "如何更新 GIO 服务器的 DATA 版本"
-date: 2023-10-24
+date: 2023-10-23
 tags: [Server, Server-Data, WinMerge]
 comments: true
 author: YYHEggEgg
@@ -9,7 +9,7 @@ author: YYHEggEgg
 
 如果您之前使用 3.2 版本的服务器，并意图使用 csharp-Protoshift 代理服务器，则我们建议您将服务器更新到 3.4 版本。
 
-但您可能之前对 data 进行过一些自己的更改，因此本文主要讲解如何更新服务器所需的 data，或者说，如何将自己的更改合并为服务器可用的新版本 data.
+您可能之前对 data 进行过一些自己的更改，因此本文主要讲解如何更新服务器所需的 data，或者说，如何将自己的更改合并为服务器可用的新版本 data.
 
 ## 前置准备
 
