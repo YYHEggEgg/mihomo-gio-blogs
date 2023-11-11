@@ -33,7 +33,7 @@ csharp-Protoshift is an advanced, manageable compatibility layer for a certain a
 - Simple proxy server management commands.
 - Automatic compilation and execution of Windy (lua) scripts. The image below shows the `welcome-to-csharp-Protoshift.lua` configuration that is enabled by default in `config_example.json`. You can disable it by setting `#/WindyConfig/OnlineExecWindyMode` to `Disabled`.
 
-  ![Windy Preview](https://github.com/YYHEggEgg/csharp-Protoshift/blob/v1.0.2.1/csharp-Protoshift/Images/windy_welcome-to-csharp-Protoshift.jpg)
+  ![Windy Preview](https://raw.githubusercontent.com/YYHEggEgg/csharp-Protoshift/v1.0.2.1/csharp-Protoshift/Images/windy_welcome-to-csharp-Protoshift.jpg)
 
 - Protobuf / `query_cur_region` / Ec2b and other utility commands.
 
