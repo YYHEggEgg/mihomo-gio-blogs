@@ -7,7 +7,9 @@ comments: true
 author: YYHEggEgg
 ---
 
-本文主要讲述本人为 ZZZ Server Emulator [JaneDoe-ZS](https://git.xeondev.com/NewEriduPubSec/JaneDoe-ZS.git) 实现的抽卡系统的具体逻辑以及其与配置文件/存档间的联系。
+本文主要讲述本人为 ZZZ Server Emulator [JaneDoe-ZS](https://git.xeondev.com/NewEriduPubSec/JaneDoe-ZS.git) 实现的抽卡系统的配置文件意义，及与抽卡相关的存档方式。
+
+_Hint: This article has both Chinese & English Versions. If you want to view English Version, please go [here](https://yyheggegg.github.io/mihomo-gio/blogs/zzz-gacha-impl-en/)._
 
 此抽卡系统的设计目标是通过单个配置文件，支持所有米池可能出现的策略。
 

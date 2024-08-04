@@ -7,7 +7,9 @@ comments: true
 author: YYHEggEgg
 ---
 
-This article mainly describes the specific logic of the wish system I implemented for the ZZZ Server Emulator [JaneDoe-ZS](https://git.xeondev.com/NewEriduPubSec/JaneDoe-ZS.git) and its connection with the configuration file/save.
+This article mainly describes meaning of elements in the configuration file, which is used by the wish system I implemented for the ZZZ Server Emulator [JaneDoe-ZS](https://git.xeondev.com/NewEriduPubSec/JaneDoe-ZS.git), and how this implemetation saves gacha related data in player save.
+
+_提示：本文同时提供中文版和英文版。如需浏览中文版，请移步 [这里](https://yyheggegg.github.io/mihomo-gio/blogs/zzz-gacha-impl-cn/)。_
 
 The design goal of this wish system is to support all possible policies in the mihoyo gacha through a single configuration file.
 
@@ -115,7 +117,7 @@ For the item configuration of each rarity, you can simply reference the category
 
 The above description is very obscure and difficult to understand, but in short, it is because:
 
-- Players cannot be unable to not draw any items in the extreme case where all the guarantees are triggered;
+- Players cannot be unable to draw any items in the extreme case where all the guarantees are triggered;
 - Players cannot be unable to draw items that do not include the ones they have chosen in the extreme case mentioned above.
 
 In addition, in the configuration of each category, `is_promotional_items` is used to display which items are currently being promoted to the client; these parameters do not affect the actual drawing process, and are only used to display to the client.
